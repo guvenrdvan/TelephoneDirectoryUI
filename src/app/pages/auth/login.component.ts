@@ -46,7 +46,7 @@ export class LoginComponent {
         this.router.navigateByUrl('user');
       }
       else {
-        this.alertify.message("Email veya Parolanızı kontrol ediniz", {
+        this.alertify.message("Kullanıcı adı veya Parolanızı kontrol ediniz", {
           messageType: MessageType.Error,
           delay: 3,
           position: Position.BottomRight,
